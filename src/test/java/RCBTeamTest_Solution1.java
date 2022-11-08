@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class RCBTeamTest {
+public class RCBTeamTest_Solution1 {
     String jsonResponseString = JsonUtil.getJsonAsString(JsonUtil.getJsonFileContent(FrameworkConstants.JSON_FILE_PATH,FrameworkConstants.JSON_FILE_NAME));
 
     @Test

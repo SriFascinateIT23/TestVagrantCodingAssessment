@@ -4,7 +4,8 @@
 
     <test name="RoyalChallengersBangaloreTest">
         <classes>
-            <class name="RCBTeamTest"/>
+            <class name="RCBTeamTest_Solution1"/>
+            <class name = "RCBTeamTest_Solution2"/>
         </classes>
     </test>
 

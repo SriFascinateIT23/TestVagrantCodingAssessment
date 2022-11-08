@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class RCBTeamTest_RestAssured {
+public class RCBTeamTest_Solution2 {
     String jsonBody;
     JsonPath jsonPath;
 
