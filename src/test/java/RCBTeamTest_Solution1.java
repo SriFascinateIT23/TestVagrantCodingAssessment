@@ -12,7 +12,7 @@ public class RCBTeamTest_Solution1 {
     @Test
     public void validateForeignPlayersCount() {
         List<String> foreignPlayersCountry = JsonPath.read(jsonResponseString,"$..player[?(@.country!='India')]");
-        Assert.assertEquals(4,foreignPlayersCountry.size(),"Foreign players count should be matched");
+        Assert.assertEquals(foreignPlayersCountry.size(),FrameworkConstants.EXPECTED_FOREIGN_PLAYERS,"Foreign players count should be matched");
     }
 
     @Test

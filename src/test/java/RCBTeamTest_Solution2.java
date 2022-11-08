@@ -29,7 +29,7 @@ public class RCBTeamTest_Solution2 {
     @Test
     public void validateForeignPlayersList() {
        System.out.println(readJsonFile().getList("player.findAll{it.country !='India'}"));
-       Assert.assertEquals(readJsonFile().getList("player.findAll{it.country !='India'}").size(),4,"Foreign players count should be matched");
+       Assert.assertEquals(readJsonFile().getList("player.findAll{it.country !='India'}").size(),FrameworkConstants.EXPECTED_FOREIGN_PLAYERS,"Foreign players count should be matched");
 
     }
 
