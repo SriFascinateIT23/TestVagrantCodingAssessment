@@ -11,8 +11,10 @@ As a prerequisites you should have below tools
 Project setup:
  - Clone the project from git
  - Open the project
+ - Do Maven refresh
 
 Execution:
+
 Solution-1: 
  - Right click on RCBTeamTest_Solution1.java class present inside and Run
  - Right click on RCBTest.xml and run from testng file
